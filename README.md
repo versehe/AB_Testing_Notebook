@@ -1,5 +1,4 @@
 # AB_Testing_Notebook
-AB testing for beginners
 
 ### What is AB testing?
 In a word, ab testing is an experiment that randomly split your users into 2 or multiple groups, and test whether your product new feature could hit a better performance. Users view original product/page are called "Control group", and users view new features are called "Variation Group". Generally, you don't want too many variations for a single test, because the more variations created, the higher possibility it could fall out of confidence interval.
@@ -16,3 +15,9 @@ For example:
   *Users are surprisingly emotional to this kind of change. You may experience a downturn in short time, but this change is reversable, they may eventually come back. So the ab tesing result in short term might be false positive.*
 * **Give cupcakes samples to a local communuity to test best flavor.**      
   *Your customers may have a strong impacts to each other, their opinions might not be truly idependent thoughts. You may want to give yout samples to customer individually.*
+
+### Concerns in AB testing designing
+1. **risk**: what risk your participants are taking? think about medicine experiments
+2. **benefit**:what Even if the risk is minimal, will the results help imcrease your engagement/revenue?
+3. **alternatives**: the fewer alternatives that participants have, the more likely they will still have to use your service.
+4. **privacy**: you may want to collect and store anonymous data other than identified data. Anonymous data can be considered pseudonymous if it is stored with a randomly generated id
