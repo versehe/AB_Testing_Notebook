@@ -34,3 +34,11 @@ For example:
 * one metric vs multiple metrics?
   *  generally single metric is eaiser to evaluate and avoid chaos
   *  if you have multiple metrics need to be evaluate, try to make it as a composite metric such as OEC(overall evaluation criterion). But the tricky part is how to set the weights of different metrics to this composite metric.
+
+
+
+
+* Additional resource to collect data?
+  *  user experience research: could only focus on small group of users, data are deep but less
+  *  focused group: target a specific group of people, present to them and hear feedbacks. The issue is that you may hear less vocie than you expect, 1-2 loud voice could also affect others thoughts
+  *  survey: you could collect a lot of data in this way, but what people said may differ from what they truly thought
