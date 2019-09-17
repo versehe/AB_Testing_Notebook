@@ -21,3 +21,12 @@ For example:
 2. **benefit**:what Even if the risk is minimal, will the results help imcrease your engagement/revenue?
 3. **alternatives**: the fewer alternatives that participants have, the more likely they will still have to use your service.
 4. **privacy**: you may want to collect and store anonymous data other than identified data. Anonymous data can be considered pseudonymous if it is stored with a randomly generated id
+
+### Metric Definition
+1. **define a high level metric**: it can be active users or revenues.
+2. **define the deifinition of your metric**: what is "active"? a login, a view or a comment?
+3. **choose measurements of your metric**: count of daily active users or DAU/MAU ratio? In this example, it depends on you are looking for expansion your products to more people or an improvment of truly engagement rate.
+
+* What metrics can't be measure?
+  *  don't have access to this data
+  *  takes too long to collect. e.g. re-purchase of a car
