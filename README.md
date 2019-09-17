@@ -26,6 +26,7 @@ For example:
 1. **define a high level metric**: it can be active users or revenues.
 2. **define the deifinition of your metric**: what is "active"? a login, a view or a comment?
 3. **choose measurements of your metric**: count of daily active users or DAU/MAU ratio? In this example, it depends on you are looking for expansion your products to more people or an improvment of truly engagement rate.
+4. **filter data**: detect spam and fraud data such as robot activities. Also, you might only conduct this ab test on web side, so you should filter out views from mobile apps.
 
 * What metrics can't be measure?
   *  don't have access to this data
