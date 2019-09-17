@@ -30,3 +30,7 @@ For example:
 * What metrics can't be measure?
   *  don't have access to this data
   *  takes too long to collect. e.g. re-purchase of a car
+
+* one metric vs multiple metrics?
+  *  generally single metric is eaiser to evaluate and avoid chaos
+  *  if you have multiple metrics need to be evaluate, try to make it as a composite metric such as OEC(overall evaluation criterion). But the tricky part is how to set the weights of different metrics to this composite metric.
