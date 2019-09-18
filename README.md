@@ -57,10 +57,15 @@ For example:
 #### Normal Distribution: (for mean)
  * mean = (A1+A2+...+An)/n
  * standard error = sqrt(variance/n) = standard deviation /sqrt(n)
- * depth = z value * standard error
+ * margin of error = z score * standard error
    * e.g. 95% confidence level, z value is 1.96
- * upper bound = mean + depth
- * lower bound = mean - depth
+ * upper bound = mean + margin of error
+ * lower bound = mean - margin of error
 
 #### Binomial Distribution: (for probablity)
-
+ * estimated probablity (p hat) = # users who click / # users who view page 
+  * standard error = sqrt(p hat * (1 -p hat) / # users who view page)
+ *  sanity check: if p hat * # users who view page  > 5 and (1 - p hat)* # users who view page  > 5, we can use normal distribution to find margin of error
+ * margin of error = z score * standard error
+ * upper bound = p hat + margin of error
+ * lower bound = p hat - margin of error
