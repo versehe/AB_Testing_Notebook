@@ -64,8 +64,16 @@ For example:
 
 #### Binomial Distribution: (for probablity)
  * estimated probablity (p hat) = # users who click / # users who view page 
-  * standard error = sqrt(p hat * (1 -p hat) / # users who view page)
+ * standard error = sqrt(p hat * (1 -p hat) / # users who view page)
  *  sanity check: if p hat * # users who view page  > 5 and (1 - p hat)* # users who view page  > 5, we can use normal distribution to find margin of error
  * margin of error = z score * standard error
  * upper bound = p hat + margin of error
  * lower bound = p hat - margin of error
+
+### Design Experiment
+* who to assign: assign by event, by user or by cookie? consider about consistancy, privacy and if users and metrics are 1-on-1 matched
+  * event: it may gone if user reload the page, so only apply to user not visible changes
+  * user id: user could have multiple accounts, it's also an identifier
+  * anomyous id (cookie): user could switch from mobile to desktop, or from IE to firefox
+  * divice id: only apply to mobile
+  * IP address: changes when user switch location
