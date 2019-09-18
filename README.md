@@ -25,7 +25,7 @@ For example:
 ### Metric Definition
 1. **define a high level metric**: it can be active users or revenues.
 2. **define the deifinition of your metric**: what is "active"? a login, a view or a comment?
-3. **choose measurements of your metric**: count of daily active users or DAU/MAU ratio? In this example, it depends on you are looking for expansion your products to more people or an improvment of truly engagement rate.
+3. **choose measurements of your metric**: count of daily active users, average time spent or DAU/MAU ratio? In this example, it depends on you are looking for improvment of impressions or an improvment of truly engagement rate. Anyway, your metric should be sensetive to your experiment and robust in distribution.
 4. **filter data**: detect spam and fraud data such as robot activities. Also, you might only conduct this ab test on web side, so you should filter out views from mobile apps.
 
 * What metrics can't be measure?
@@ -36,10 +36,31 @@ For example:
   *  generally single metric is eaiser to evaluate and avoid chaos
   *  if you have multiple metrics need to be evaluate, try to make it as a composite metric such as OEC(overall evaluation criterion). But the tricky part is how to set the weights of different metrics to this composite metric.
 
-
-
-
 * Additional resource to collect data?
   *  user experience research: could only focus on small group of users, data are deep but less
   *  focused group: target a specific group of people, present to them and hear feedbacks. The issue is that you may hear less vocie than you expect, 1-2 loud voice could also affect others thoughts
   *  survey: you could collect a lot of data in this way, but what people said may differ from what they truly thought
+  
+### Common Metrics
+* Engagement
+  *  Count: DAU (daily active user),MAU (monthly active user) - how do you define active?
+     * if the activity has significant weekly deffirence, consider MAU as 28 daya instead of 30 days
+  *  Mean : average time spent
+  *  Ratio: DAU/MAU ratio - truly engagement rate
+* Revenue
+  *  Mean : average $ spent per user
+* Impression
+  *  Ratio: CTR (click through rate) = # of click / # of page views in given time period
+  *  Probablity: CTP (click through probablity) = # of unique visitors click/# of unique visitors view this page in given time period
+  
+### Confidence Interval
+#### Normal Distribution: (for mean)
+ * mean = (A1+A2+...+An)/n
+ * standard error = sqrt(variance/n) = standard deviation /sqrt(n)
+ * depth = z value * standard error
+   * e.g. 95% confidence level, z value is 1.96
+ * upper bound = mean + depth
+ * lower bound = mean - depth
+
+#### Binomial Distribution: (for probablity)
+
