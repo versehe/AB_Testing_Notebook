@@ -1,7 +1,7 @@
 # AB_Testing_Notebook
 
 ### What is AB testing?
-In a word, ab testing is an experiment that randomly split your users into 2 or multiple groups, and test whether your product new feature could hit a better performance. Users view original product/page are called "Control group", and users view new features are called "Variation Group". Generally, you don't want too many variations for a single test, because the more variations created, the higher possibility it could fall out of confidence interval.
+In a word, ab testing is an experiment that randomly split your users into 2 or multiple groups, and test whether your product new feature could hit a better performance. Users view original product/page are called ```Control group```, and users view new features are called ```Variation Group```. Generally, you don't want too many variations for a single test, because the more variations created, the higher possibility it could fall out of confidence interval.
 
 ### When not to use AB testing?
 AB testing is great to test whether this feature could help improve your business goal or not. But it could'n tell you what else feature you should add. The experiment group needs to be radomly assigned, you need to worry about things like network effects. Also, if the user reaction is too long or hard to track, then you couldn't find a significant difference from your result.
@@ -71,9 +71,11 @@ For example:
  * lower bound = p hat - margin of error
 
 ### Design Experiment
-* who to assign: assign by event, by user or by cookie? consider about consistancy, privacy and if users and metrics are 1-on-1 matched
+* **choose subject**: assign by event, by user or by cookie? consider about consistancy, privacy and if subjects and metrics are at the same level
   * event: it may gone if user reload the page, so only apply to user not visible changes
   * user id: user could have multiple accounts, it's also an identifier
   * anomyous id (cookie): user could switch from mobile to desktop, or from IE to firefox
   * divice id: only apply to mobile
   * IP address: changes when user switch location
+* **choose population**: target to specific language/broswer group of users to avoid bias. After finishing experiment, you may want to re-run your experiment globally to make sure no un-intentional effects
+  * cohort vs population: ```cohort``` is a group of user enter at same time who have shared experience, it improves stability but requies more samples because users could drop out. You only need cohort when you try to analyze things like user retention or engagement, where you need to know whether they are same users.
