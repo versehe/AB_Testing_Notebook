@@ -84,8 +84,8 @@ For example:
 * **choose population**: target to specific language/broswer group of users to avoid bias. After finishing experiment, you may want to re-run your experiment globally to make sure no un-intentional effects
   * cohort vs population: ```cohort``` is a group of user enter at same time who have shared experience, it improves stability but requies more samples because users could drop out. You only need cohort when you try to analyze things like user retention or engagement, where you need to know whether they are same users.
 * **decide sample size**:、
-  * ```baseline conversion rate```: the conversion rate value of our control　group variation (variation A)
-  * ```Minimum Detectable Effect```: The minimum relative change in conversion rate you would like to be able to detect between variations A and B conversion. For a product with large group of users, the difference could be 1% - 2%
+  * ```baseline conversion rate```: the conversion rate value of our control group variation (variation A), you can look at historical data to determine it.
+  * ```Minimum Detectable Effect```: the smallest relative change in conversion rate you are interested to detect between variations A and B conversion. For a product with large group of users, the difference could be 1% - 2%.
   * choose ```statistical significance```: confidence level (alfa). Usually alfa is 5%, which means 95% of time it should fall in confidence interval
   * choose ```statistical power```: sensitivity (1 - beta). Usually beta is 20%, so power is 80%. If result falls in beta, it means no significant difference between ariations A and B.        
   ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/true%20difference.png)             
