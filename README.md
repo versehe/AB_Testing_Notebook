@@ -44,8 +44,8 @@ For example:
 ### Common Metrics
 * Engagement
   *  Count: DAU (daily active user),MAU (monthly active user) - how do you define active?
-     * if the activity has significant weekly deffirence, consider MAU as 28 daya instead of 30 days
-  *  Mean : average time spent
+     * if the activity has significant weekly variation, consider MAU as 28 daya instead of 30 days
+  *  Mean : average time spent, 90 percentile (long tail)
   *  Ratio: DAU/MAU ratio - truly engagement rate
 * Revenue
   *  Mean : average $ spent per user
@@ -79,3 +79,5 @@ For example:
   * IP address: changes when user switch location
 * **choose population**: target to specific language/broswer group of users to avoid bias. After finishing experiment, you may want to re-run your experiment globally to make sure no un-intentional effects
   * cohort vs population: ```cohort``` is a group of user enter at same time who have shared experience, it improves stability but requies more samples because users could drop out. You only need cohort when you try to analyze things like user retention or engagement, where you need to know whether they are same users.
+* **decide sample size**:
+* **decide experiment duration**:sample size matters could affect duration, if you select a small proportion of traffic to test, you may need to run longer in order to collect enough data. Also, take user learning effect into consideration, user may react irrational when first seeing a new change, but eventually they will perform different from when they just saw it. Not only duration, when to start your experiment is also critical. e.g. online shopping has a seasonality at year end, it could affect to result. 
