@@ -83,5 +83,9 @@ For example:
   * IP address: changes when user switch location
 * **choose population**: target to specific language/broswer group of users to avoid bias. After finishing experiment, you may want to re-run your experiment globally to make sure no un-intentional effects
   * cohort vs population: ```cohort``` is a group of user enter at same time who have shared experience, it improves stability but requies more samples because users could drop out. You only need cohort when you try to analyze things like user retention or engagement, where you need to know whether they are same users.
-* **decide sample size**:
+* **decide sample size**:、
+  * ```baseline conversion rate```: the conversion rate value of our control　group variation (variation A)
+  * ```Minimum Detectable Effect```: The minimum relative change in conversion rate you would like to be able to detect between variations A and B conversion. For a product with large group of users, the difference could be 1% - 2%
+  * choose ```statistical significance```: confidence level (alfa). usually is 5%, which means 95% of time it should fall in confidence interval
+  * choose ```statistical power```:
 * **decide experiment duration**:sample size matters could affect duration, if you select a small proportion of traffic to test, you may need to run longer in order to collect enough data. Also, take user learning effect into consideration, user may react irrational when first seeing a new change, but eventually they will perform different from when they just saw it. Not only duration, when to start your experiment is also critical. e.g. online shopping has a seasonality at year end, it could affect to result. 
