@@ -70,6 +70,10 @@ For example:
  * upper bound = p hat + margin of error
  * lower bound = p hat - margin of error
 
+### Form Hypothesis
+ *  null hypothesis (H0): Control group
+ *  alternative hypothesis (H1): Variation Group
+
 ### Design Experiment
 * **choose subject**: assign by event, by user or by cookie? consider about consistancy, privacy and if subjects and metrics are at the same level
   * event: it may gone if user reload the page, so only apply to user not visible changes
