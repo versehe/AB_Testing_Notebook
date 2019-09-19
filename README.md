@@ -89,3 +89,6 @@ For example:
   * choose ```statistical significance```: confidence level (alfa). usually is 5%, which means 95% of time it should fall in confidence interval
   * choose ```statistical power```:
 * **decide experiment duration**:sample size matters could affect duration, if you select a small proportion of traffic to test, you may need to run longer in order to collect enough data. Also, take user learning effect into consideration, user may react irrational when first seeing a new change, but eventually they will perform different from when they just saw it. Not only duration, when to start your experiment is also critical. e.g. online shopping has a seasonality at year end, it could affect to result. 
+
+### Evaluate Result
+* sanity check: before analyze your experiment result, do some sanity check to make sure the results are in fact comparable.e.g. when evaluating the click through rate, the number of users who view the page shouldn't change significantly at the first place
