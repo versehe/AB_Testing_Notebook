@@ -62,7 +62,7 @@ For example:
  * upper bound = mean + margin of error
  * lower bound = mean - margin of error
 
-#### Binomial Distribution: (for probablity)
+#### Binomial Distribution: (for probablity - binary, independent event) 
  * estimated probablity (p hat) = # users who click / # users who view page 
  * standard error = sqrt(p hat * (1 -p hat) / # users who view page)
  *  sanity check: if p hat * # users who view page  > 5 and (1 - p hat)* # users who view page  > 5, we can use normal distribution to find margin of error
