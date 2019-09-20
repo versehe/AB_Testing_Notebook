@@ -33,7 +33,7 @@ For example:
   *  takes too long to collect. e.g. re-purchase of a car
 
 * one metric vs multiple metrics?
-  *  generally single metric is eaiser to evaluate and avoid chaos. 
+  *  generally single metric is eaiser to evaluate and avoid chaos. (type I error - false positive)
   *  if you have multiple metrics need to be evaluate, try to make it as a composite metric such as OEC(overall evaluation criterion). But the tricky part is how to set the weights of different metrics to this composite metric.
 
 * Additional resource to collect data?
@@ -48,7 +48,7 @@ For example:
   *  Mean : average time spent, 90 percentile (long tail)
   *  Ratio: DAU/MAU ratio - truly engagement rate
 * Revenue
-  *  Mean : average $ spent per user
+  *  Mean : average $ spent per user, RPM (revenue per thousand query), cost per click
 * Impression
   *  Ratio: CTR (click through rate) = # of click / # of page views in given time period
   *  Probablity: CTP (click through probablity) = # of unique visitors click/# of unique visitors view this page in given time period
@@ -102,4 +102,10 @@ For example:
   * upper bound = d hat + margin of error
   * lower bound = d hat - margin of error
   * if ```variation group mean``` falls out of confident interval, then the difference is significant
-* draw colusion 
+* draw conclusion 
+  * do you have a statistical significant result?
+  * given the cost of lauching, is it worth to lauch it?
+
+### Be aware besides of AB testing
+* seasonality - students went on vocation
+* event-drvien changes - online shopping during black Friday
