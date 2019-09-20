@@ -95,8 +95,8 @@ For example:
 
 ### Evaluate Result
 * sanity check: before analyze your experiment result, do some sanity check to make sure the results are in fact comparable.e.g. when evaluating the click through rate, the number of users who view the page shouldn't change significantly at the first place
-* T test: figure out if your experiment has a statistical significance between the population mean and a hypothesized value
-  * t value = mean difference between control group and variation group (d hat) / standard error     
+* **T test**: figure out if your experiment has a statistical significance between the population mean and a hypothesized value
+  * **t value** = mean difference between control group and variation group (d hat) / standard error     
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/pooled%20t%20value.PNG)     
   * margin of error = z score * standard error
   * upper bound = d hat + margin of error
