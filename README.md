@@ -90,7 +90,13 @@ For example:
   * choose ```statistical power```: sensitivity (1 - beta). Usually beta is 20%, so power is 80%. If result falls in beta, it means no significant difference between ariations A and B.        
   ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/true%20difference.png)             
      * if we feed more samples into experiment, the distribution will become sharper, then true difference area will expands.      
-  ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/more%20sample%20difference.png)     
+  ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/more%20sample%20difference.png)    
+* **random assign samples to groups**:
+  * purified randomization
+  * ```stratified randomization```: in order to aviod bias (gender/ages unequally assigned), firstly assign samples into different strata, then randomly assign them for each strata
+  * ```cluster randomization```: first assign samples into different cluster by their similarity, then assign randomly from each cluster. We usually use this approach to aovid network effect
+     * ```network effect```: user of a service has on the value of that product to others. When a network effect is present, the value of a product or service increases according to the number of others using it. (word of mouth)
+  * ```cross-over randomization```: when sampel size is small, after first round test finished, wait until test result fades, then switch 2 groups over to do next round test.
 * **decide experiment duration**:sample size matters could affect duration, if you select a small proportion of traffic to test, you may need to run longer in order to collect enough data. Also, take user learning effect into consideration, user may react irrational when first seeing a new change, but eventually they will perform different from when they just saw it. Not only duration, when to start your experiment is also critical. e.g. online shopping has a seasonality at year end, it could affect to result. 
 
 ### Evaluate Result
