@@ -76,7 +76,7 @@ For example:
 
 ### Design Experiment
 * **business process**: analyze business process to understand the logic of business line, for each step of the business life cycle there will be a measurable subject be applied
-![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/pooled%20t%20value.PNG)     
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/business%20process%20funnel.PNG)     
 * **choose subject**: assign by event, by user or by cookie? consider about consistancy, privacy and if subjects and metrics are at the same level
   * event: it may gone if user reload the page, so only apply to user not visible changes
   * user id: user could have multiple accounts, it's also an identifier
