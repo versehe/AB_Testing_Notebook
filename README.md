@@ -117,3 +117,12 @@ For example:
 ### Be aware besides of AB testing
 * seasonality - students went on vocation
 * event-drvien changes - online shopping during black Friday
+
+### A typical AB testing interview question logic flow   
+1. clarify business objective/goal (business goal) 
+2. align current topic with goal
+3. segment into smaller areas 
+4. set up hypothesis and metric
+5. validate the hypothesis by A/B testing
+6. make recommendation/find root cause
+
