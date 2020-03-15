@@ -88,7 +88,8 @@ For example:
 * **decide sample size**:、
   * ```baseline conversion rate```: the conversion rate value of our control group variation (variation A), you can look at historical data to determine it.
   * ```Minimum Detectable Effect```: the smallest relative change in conversion rate you are interested to detect between variations A and B conversion. For a product with large group of users, the difference could be 1% - 2%.
-  * choose ```statistical significance```: confidence level (alfa). Usually alfa is 5%, which means 95% of time it should fall in confidence interval
+  * ```Estimated Standard Error```: if data don't affirm normal distribution/binoimal distribution, it might be hard to calculate SE. Try to use Bootstrap or Delta method to get an estimated standard error. 
+  * choose ```statistical significance```(P Value): confidence level (alfa). Usually alfa is 5%, which means 95% of time it should fall in confidence interval
   * choose ```statistical power```: sensitivity (1 - beta). Usually beta is 20%, so power is 80%. If result falls in beta, it means no significant difference between ariations A and B.        
   ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/true%20difference.png)             
      * if we feed more samples into experiment, the distribution will become sharper, then true difference area will expands.      
@@ -126,3 +127,14 @@ For example:
 5. validate the hypothesis by A/B testing
 6. make recommendation/find root cause
 
+### Find Root Cause:
+1. sanity check: 
+   1. seasonality, special events
+   2. bug, issue
+2. external reason: competitors
+3. internal reason
+   1. policy change, function change
+   2. user group change
+      1. some user group drops > break user group down
+      2. both user group increase but overal drops > sampson's paradox, user group proportion change
+                   
