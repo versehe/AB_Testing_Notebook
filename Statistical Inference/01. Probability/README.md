@@ -7,12 +7,16 @@ Otherwise, if these two things can happen simultaneously, the probability that a
 P(A∪B) = P(A) + p(B) - P(A∩B)    
 
 
-### Random Variables: 
-random variable is a numeric outcome of experiment. It could be Continous or Discrete  
-     
+### Random Variable
+random variable is a numeric outcome of experiment. It could be ```Continous``` or ```Discrete```.  
+* ```Probability Mass Function```: a function that takes any values that a discrete random variable can take, and simply assign the probability when it takes a specific value. (Example: roll a dice)
+     * the probality must be larger than or equal to 0.(P(1)=P(2)=P(3)=P(4)=P(5)=P(6)=1/6)
+     * the sum of the probalities of all possible value must equal to 1.(P(1) + P(2) +  P(3) +  P(4) +  P(5) + P(6) = 1.)       
+* ```Probability Density Function```:
 
-### Mass Function for Random Variables
 
-
-### Density for Random Variables
-
+### Most famous Probability Mass Function: Bernoulli distribution
+Bernoulli distribution is the discrete probability distribution of a random variable which takes the value 1 with probability p and the value 0 with probability q = 1 − p. (Example: flip a coin)               
+* P(x) = θ<sup>x</sup>(1-θ)<sup>(1-x)</sup>                 
+     * P(0) = 1-θ         
+     * P(1) = θ              
