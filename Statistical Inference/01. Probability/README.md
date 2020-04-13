@@ -5,4 +5,14 @@ The probability of two things that cannot simultaneously occur(mutually exclusiv
 P(A∪B) = P(A) + p(B)    
 Otherwise, if these two things can happen simultaneously, the probability that at least one occurs is the sum of their probabilities minus their intersection.    
 P(A∪B) = P(A) + p(B) - P(A∩B)    
- 
+
+
+### Random Variables: 
+random variable is a numeric outcome of experiment. It could be Continous or Discrete  
+     
+
+### Mass Function for Random Variables
+
+
+### Density for Random Variables
+
