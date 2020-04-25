@@ -17,9 +17,9 @@ random variable is a numeric outcome of experiment. It could be ```Continous``` 
      * the sum of the probalities of all possible value must equal to 1.
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)         
 ### Cumulative Density Function and survival function
-* ```Probability Mass Function``` returns the possibility that the random variable is less than or equal to the value x.
+* ```Cumulative Density Function```, or ```quantile```,  returns the possibility that the random variable is less than or equal to the value x.        
 F(x) = P(X <= x)    
-* ```survival function``` returns the possibility that the random variable is greater than the value x.     
+* ```survival function``` returns the possibility that the random variable is greater than the value x.                    
 S(x) = P(X > x)    
 
 
