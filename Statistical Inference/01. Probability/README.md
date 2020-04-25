@@ -12,7 +12,15 @@ random variable is a numeric outcome of experiment. It could be ```Continous``` 
 * ```Probability Mass Function```: a function that takes any values that a discrete random variable can take, and simply assign the probability when it takes a specific value. (Example: roll a dice)
      * the probality must be larger than or equal to 0.(P(1)=P(2)=P(3)=P(4)=P(5)=P(6)=1/6)
      * the sum of the probalities of all possible value must equal to 1.(P(1) + P(2) +  P(3) +  P(4) +  P(5) + P(6) = 1.)       
-* ```Probability Density Function```:
+* ```Probability Density Function```: a function that use area to reflect the possibility of a range of continous random variable. Because it use area to indicate possibilty, the possibility of a specific random variable is going to be 0, sicne the area of a line is 0.(Example: normal distribution/bell curve)
+     * the probality must be larger than or equal to 0 everywhere.
+     * the sum of the probalities of all possible value must equal to 1.
+     
+### Cumulative Density Function and survival function
+* ```Probability Mass Function``` returns the possibility that the random variable is less than or equal to the value x.
+F(x) = P(X <= x)    
+* ```survival function``` returns the possibility that the random variable is greater than the value x.     
+S(x) = P(X > x)    
 
 
 ### Most famous Probability Mass Function: Bernoulli distribution
