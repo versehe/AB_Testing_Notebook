@@ -28,3 +28,9 @@ Bernoulli distribution is the discrete probability distribution of a random vari
 * P(x) = θ<sup>x</sup>(1-θ)<sup>(1-x)</sup>                 
      * P(0) = 1-θ         
      * P(1) = θ              
+
+### Conditional Probability
+On the ground that the probability of event B happening is greater than 0, he probability of event A happens after event B happen can be written as:                 
+P(A|B) = P(A∩B) /p(B)                      
+If event A and B are independent, the probability of event A doesn't really relys on event B. Thus, it becomes:         
+P(A|B) = P(A∩B) /p(B)  =  P(A)*P(B) /p(B) = P(A)                
