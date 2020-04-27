@@ -14,7 +14,7 @@ random variable is a numeric outcome of experiment. It could be ```Continous``` 
      * the sum of the probalities of all possible value must equal to 1.(P(1) + P(2) +  P(3) +  P(4) +  P(5) + P(6) = 1.)       
 * ```Probability Density Function```: a function that use area to reflect the possibility of a range of continous random variable. Because it use area to indicate possibilty, the possibility of a specific random variable is going to be 0, sicne the area of a line is 0.(Example: normal distribution/bell curve)
      * the probality must be larger than or equal to 0 everywhere.
-     * the sum of the probalities of all possible value must equal to 1.
+     * the sum of the probalities of all possible value must equal to 1.                                         
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)         
 ### Cumulative Density Function and survival function
 * ```Cumulative Density Function```, or ```quantile```,  returns the possibility that the random variable is less than or equal to the value x.        
