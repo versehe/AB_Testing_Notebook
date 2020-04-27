@@ -33,4 +33,17 @@ Bernoulli distribution is the discrete probability distribution of a random vari
 On the ground that the probability of event B happening is greater than 0, he probability of event A happens after event B happen can be written as:                 
 P(A|B) = P(A∩B) /p(B)                      
 If event A and B are independent, the probability of event A doesn't really relys on event B. Thus, it becomes:         
-P(A|B) = P(A∩B) /p(B)  =  P(A)*P(B) /p(B) = P(A)                
+P(A|B) = P(A∩B) /p(B)  =  P(A)*P(B) /p(B) = P(A)       
+
+### Bayes' Rule
+It allows us to reverse the role of conditional set and get us the probability of the reversed set.              
+```P(B|A) = P(A|B)*P(B) / P(A)```              
+Or, P(B|A) =P(A|B)*P(B) / {P(A|B)*P(B)+ P(A|B<sup>c</sup>)*P(B<sup>c</sup>)}, where P(B<sup>c</sup>) is the probability of B not happen
+#### Likelihood Ratio
+P(B|A) =P(A|B)*P(B) / {P(A|B)*P(B)+ P(A|B<sup>c</sup>)*P(B<sup>c</sup>)}                  
+P(B<sup>c</sup>|A) =P(A|B<sup>c</sup>)*P(B<sup>c</sup>) / {P(A|B)*P(B)+ P(A|B<sup>c</sup>)*P(B<sup>c</sup>)}      
+since the denominator are same:                   
+P(B|A)/P(B<sup>c</sup>|A) = P(A|B)*P(B) /P(A|B<sup>c</sup>)*P(B<sup>c</sup>)  = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))              
+thus, P(B|A)/P(B<sup>c</sup>|A) = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))     
+in other words:                   
+```post-test odds  = Likelihood Ratio * pre test odds```
