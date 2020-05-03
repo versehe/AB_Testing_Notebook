@@ -46,4 +46,4 @@ since the denominator are same:
 P(B|A)/P(B<sup>c</sup>|A) = P(A|B)*P(B) /P(A|B<sup>c</sup>)*P(B<sup>c</sup>)  = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))              
 thus, P(B|A)/P(B<sup>c</sup>|A) = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))     
 in other words:                   
-```post-test odds  = Likelihood Ratio * pre test odds```
+```post test odds```  = ```Likelihood Ratio``` * ```pre test odds```
