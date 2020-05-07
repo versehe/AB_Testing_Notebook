@@ -46,4 +46,9 @@ since the denominator are same:
 P(B|A)/P(B<sup>c</sup>|A) = P(A|B)*P(B) /P(A|B<sup>c</sup>)*P(B<sup>c</sup>)  = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))              
 thus, P(B|A)/P(B<sup>c</sup>|A) = ( P(A|B)/P(A|B<sup>c</sup>)) * (P(B)/P(B<sup>c</sup>))     
 in other words:                   
-```post test odds```  = ```Likelihood Ratio``` * ```pre test odds```
+```post test odds```  = ```Likelihood Ratio``` * ```pre test odds```          
+
+### Expected Value
+```Expected value```, or ```the mean of a random variable``` is the center of a distribution. We use the sample mean to estimate the population mean. If the distribution is discrete, then the expected value can be calculated as:         
+E[x]= Σx*P(x)
+
