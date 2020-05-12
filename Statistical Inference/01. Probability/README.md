@@ -50,5 +50,8 @@ in other words:
 
 ### Expected Value
 ```Expected value```, or ```the mean of a random variable``` is the center of a distribution. We use the sample mean to estimate the population mean. If the distribution is discrete, then the expected value can be calculated as:         
-E[x]= Σx*P(x)
+E[x]= Σx*P(x)                       
+
+If I roll a dice, the expected value is always 3.5; If I roll 2 dices and take the average, the expected value of this average distribution still remains the same. This is a great feature for us to estimate the population expected value from a sample.                           
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)  
 
