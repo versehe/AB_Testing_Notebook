@@ -57,4 +57,12 @@ If I roll a dice, the expected value is always 3.5; If I roll 2 dices and take t
 *Note: this works to continous distribution too.
 
 ###  Variability
-Variability measures how spread out a population is. We measure population variability with the sample ```variance``` or ```standard deviation```. 
+Variability measures how spread out a population is. We measure population variability with the sample ```variance``` or ```standard deviation```.             
+Var(X) = Σ(x-μ)<sup>2</sup> = Σ(x<sup>2</sup>)- Σ(x)<sup>2</sup>, where μ stands for the mean of this ramdon variable          
+STD(X) = SQRT(Var(X))                        
+For Bernoulli distribution, the probability of happen is p, and probability of not happen q = 1-p         
+Var(X) = p(1-p)
+
+When estimate the sample variance from obeserved variance:
+S<sup>2</sup>= Σ<sub>i-1</sub>（X<sub>i</sub>-x̅）<sup>2</sup>/n-1              
+This sample variance also has a population distribution, the expected value of this distribution is the population variance. When we collect more sample variances, the distribution get more concentrate to the population variance, which is what we are trying to estimate.
