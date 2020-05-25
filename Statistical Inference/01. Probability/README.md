@@ -66,3 +66,14 @@ Var(X) = p(1-p)
 When estimate the sample variance from obeserved variance:
 S<sup>2</sup>= Σ<sub>i-1</sub>（X<sub>i</sub>-x̅）<sup>2</sup>/n-1              
 This sample variance also has a population distribution, the expected value of this distribution is the population variance. When we collect more sample variances, the distribution get more concentrate to the population variance, which is what we are trying to estimate.
+
+
+
+###  Standard Error
+We already know: The variance of a random variable itself is also a distribution, and the expected value of this distribution concentrates around the avarage of variance, σ<sup>2</sup>. Also, the expected value of an mean distribution is still the population mean. Thus, We could estimate the variance of population mean:              
+Var(x̅) = σ<sup>2</sup>/n  
+STD(x̅) = SQRT(σ<sup>2</sup>/n) = STD(x̅)/ SQRT(n)                     
+We call the standard deviation of the mean distribution as ```standard error```. The more data we collect, this distribution is more concentrated, and standard error is more close to 0.              
+
+While Variability measures how spread out a population is. Standard Error measures how spread out the expect value of a population, estimated by the expected value of the sample mean distribution. 
+
