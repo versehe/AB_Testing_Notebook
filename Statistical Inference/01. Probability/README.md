@@ -77,3 +77,6 @@ We call the standard deviation of the mean distribution as ```standard error```.
 
 While Variability measures how spread out a population is. Standard Error measures how spread out the expect value of a population, estimated by the expected value of the sample mean distribution. 
 
+
+##  Summary
+This is why in A/B testing, after we decided the confidence level, we not only calculate our dataset mean, but also using standard error to get the margin of error. Only when variation group mean falls out of confident interval, we call the difference significant.
