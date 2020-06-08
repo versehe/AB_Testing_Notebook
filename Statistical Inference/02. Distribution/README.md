@@ -29,9 +29,16 @@ When it needs to convert back,
 N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)         
 
 ### Facts to remember about standard normal distribution
-1. standard deviation range
-1. the range of standard deviation (-1,1) engage about 68% of standard normal distribution, for normal distribution, the range is (u-σ,u-σ)
-1. the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u-2σ)
-1. the range of standard deviation (-3,3) engage about 99% of standard normal distribution, for normal distribution, the range is (u-3σ,u-3σ)
+* standard deviation range
+   * the range of standard deviation (-1,1) engage about 68% of standard normal distribution
+   * the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u-2σ)
+   * the range of standard deviation (-3,3) engage about 99% of standard normal distribution
 
+* percentile
+   * 0 is about the 50th of standard normal distribution
+   * 1.28 is about the 90th of standard normal distribution
+   * 1.645 is about the 95th of standard normal distribution
+   * ```1.96``` is about the 97.5th of standard normal distribution, for normal distribution, the value is u + 1.96 * σ
+   * 2.33 is about the 99th of standard normal distribution
+  
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)
