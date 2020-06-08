@@ -16,3 +16,12 @@ Binomial Distribution mass function is the sum of x<sub>1</sub> to x<sub>n</sub>
 
 P(x) = C<sup>n</sup><sub>x</sub> * p<sup>x</sup>(1-p)<sup>(n-x)</sup>   独立重复试验       
 C<sup>n</sup><sub>x</sub> = n!/x!(n-x)!  排列组合
+
+## Normal Distribution
+Normal Distribution is one of the most common distribution, it also calls Gaussian Distribution or bell curve. The mean of normal distribution is 
+
+
+
+
+
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)
