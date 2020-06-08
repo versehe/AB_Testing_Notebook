@@ -18,10 +18,20 @@ P(x) = C<sup>n</sup><sub>x</sub> * p<sup>x</sup>(1-p)<sup>(n-x)</sup>   独立�
 C<sup>n</sup><sub>x</sub> = n!/x!(n-x)!  排列组合
 
 ## Normal Distribution
-Normal Distribution is one of the most common distribution, it also calls Gaussian Distribution or bell curve. The mean of normal distribution is 
+Normal Distribution is one of the most common distribution, it also calls Gaussian Distribution or bell curve. The mean of normal distribution is μ and variance of normal distribution is σ<sup>2</sup>.             
+X ~ N(μ,σ<sup>2</sup>)                  
+When mean u = 0, and standard deviation σ = 1, we call it standard normal distribution.          
+Z ~ N(0,1)
 
+We usually normalize a bell curve to standard normal distribution.   
+Z = (X - μ)/σ ~ N(0,1)            
+When it needs to convert back,             
+N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)         
 
-
-
+### Facts to remember about standard normal distribution
+1. standard deviation range
+1. the range of standard deviation (-1,1) engage about 68% of standard normal distribution, for normal distribution, the range is (u-σ,u-σ)
+1. the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u-2σ)
+1. the range of standard deviation (-3,3) engage about 99% of standard normal distribution, for normal distribution, the range is (u-3σ,u-3σ)
 
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)
