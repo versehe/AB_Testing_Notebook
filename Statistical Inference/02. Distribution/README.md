@@ -31,7 +31,7 @@ N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)
 ### Facts to remember about standard normal distribution
 * standard deviation range
    * the range of standard deviation (-1,1) engage about 68% of standard normal distribution
-   * the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u-2σ)
+   * the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u+2σ)
    * the range of standard deviation (-3,3) engage about 99% of standard normal distribution
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
 
@@ -41,5 +41,7 @@ N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)
    * 1.645 is about the 95th of standard normal distribution
    * ```1.96``` is about the 97.5th of standard normal distribution, for normal distribution, the value is u + 1.96 * σ
    * 2.33 is about the 99th of standard normal distribution
+   
+That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 97.5th percentile - 2.5th percentile,which is around 95% in the middle (around mean u). We use this confidence inteval a lot in A/B test.   
   
 
