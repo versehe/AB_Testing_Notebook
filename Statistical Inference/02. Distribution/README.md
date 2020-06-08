@@ -33,6 +33,7 @@ N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)
    * the range of standard deviation (-1,1) engage about 68% of standard normal distribution
    * the range of standard deviation (-2,2) engage about ```95%``` of standard normal distribution, for normal distribution, the range is (u-2σ,u-2σ)
    * the range of standard deviation (-3,3) engage about 99% of standard normal distribution
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
 
 * percentile
    * 0 is about the 50th of standard normal distribution
@@ -41,4 +42,4 @@ N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)
    * ```1.96``` is about the 97.5th of standard normal distribution, for normal distribution, the value is u + 1.96 * σ
    * 2.33 is about the 99th of standard normal distribution
   
-![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/01.%20Probability/bell%20curve.PNG)
+
