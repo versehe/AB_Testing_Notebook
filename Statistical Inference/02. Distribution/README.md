@@ -46,11 +46,11 @@ That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 9
   
 
 ## Poisson Distribution
-Poisson Distribution might be the second most commonly used distribution after normal distribution, it primary used for modelling counts.         
+Poisson Distribution might be the second most commonly used distribution after normal distribution, it has a deep connection with Multi-nonimals, Binonimals and Bernoullis.
 P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers             
 ```mean``` is λ, and ```variance``` is also λ.           
 
-![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20distribution.png) 
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20Distribution.png) 
  
 * where to use Poisson Distribution?
    * a good candidate to model count data, especially when count is unbounded
@@ -58,3 +58,4 @@ P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers
    * default model of contingency table. Contingency table, so called Crosstab, is used in statistics to summarize the relationship between several categorical variables. A contingency table is a special type of frequency distribution table, where two variables are shown simultaneously. For example, if it's a male dog, it will count 1 in first cell below.
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/contingency%20table.jpg)    
    * approximating Binomial Distribution when n is large and p is small
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20approximation%20to%20Binomial%20Distribution.jpg)    
