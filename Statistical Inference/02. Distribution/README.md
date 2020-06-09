@@ -57,8 +57,8 @@ P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers
    * model survival data
    * model rates           
    X ~ P(λ*t) ,where 
-      * λ = E(x/t) is the expected count per unit of time                  
-      * t stands for total monitor time
+      * λ = E(x/t) is the expected rate, or count per unit of time                          
+      * t stands for total monitor time                  
    for example, if average rate is 2.5, and we want to know what's the possibility of a count after 5 hours, then lamda = 2.5*5
 
 
