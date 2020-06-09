@@ -49,7 +49,7 @@ That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 9
 Poisson Distribution might be the second most commonly used distribution after normal distribution, it has a deep connection with Multi-nonimals, Binonimals and Bernoullis.
 P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers             
 ```mean``` is λ, and ```variance``` is also λ.           
-
+As you can see in the graph, when lambda λ lager than 200, it will approximates to normal distribution.
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20Distribution.png) 
  
 * where to use Poisson Distribution?
@@ -59,7 +59,7 @@ P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers
    X ~ P(λ*t) ,where 
       * λ = E(x/t) is the expected rate, or count per unit of time                          
       * t stands for total monitor time                  
-   for example, if average rate is 2.5, and we want to know what's the possibility of a count after 5 hours, then lamda = 2.5*5
+   for example, if average rate is 2.5, and we want to know what's the possibility of a count after 5 hours, then lambda = 2.5*5
 
 
    * default model of contingency table. Contingency table, so called Crosstab, is used in statistics to summarize the relationship between several categorical variables. A contingency table is a special type of frequency distribution table, where two variables are shown simultaneously. For example, if it's a male dog, it will count 1 in first cell below.
