@@ -49,8 +49,9 @@ That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 9
 Poisson Distribution might be the second most commonly used distribution after normal distribution, it has a deep connection with Multi-nonimals, Binonimals and Bernoullis.
 P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers             
 ```mean``` is λ, and ```variance``` is also λ.           
+
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20Distribution.png)                        
 As you can see in the graph, when lambda λ lager than 200, it will approximates to normal distribution.
-![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20Distribution.png) 
  
 * where to use Poisson Distribution?
    * a good candidate to model count data, especially when count is unbounded
