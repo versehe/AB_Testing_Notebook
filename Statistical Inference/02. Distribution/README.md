@@ -55,5 +55,6 @@ P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers
 * where to use Poisson Distribution?
    * a good candidate to model count data, especially when count is unbounded
    * model survival data
-   * default model of contigency table
+   * default model of contingency table. Contingency table, so called Crosstab, is used in statistics to summarize the relationship between several categorical variables. A contingency table is a special type of frequency distribution table, where two variables are shown simultaneously. For example, if it's a male dog, it will count 1 in first cell below.
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/contingency%20table.jpg)    
    * approximating Binomial Distribution when n is large and p is small
