@@ -45,3 +45,15 @@ N = Z*σ + μ ~ N(μ,σ<sup>2</sup>)
 That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 97.5th percentile - 2.5th percentile,which is around 95% in the middle (around mean u). We use this confidence inteval a lot in A/B test.   
   
 
+## Poisson Distribution
+Poisson Distribution might be the second most commonly used distribution after normal distribution, it primary used for modelling counts.         
+P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers             
+```mean``` is λ, and ```variance``` is also λ.           
+
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/Poisson%20distribution.png) 
+ 
+* where to use Poisson Distribution?
+   * a good candidate to model count data, especially when count is unbounded
+   * model survival data
+   * default model of contigency table
+   * approximating Binomial Distribution when n is large and p is small
