@@ -138,3 +138,6 @@ For example:
       1. some user group drops > break user group down
       2. both user group increase but overal drops > sampson's paradox, user group proportion change
                    
+
+#### Question: Does multiple AB tests run at the same time?
+Yes, in the reality, there could be hunreds of them running concurrently. Instead of let some of the feastures wait to be tested forever, we tend to ingore the correlation among those tests.
