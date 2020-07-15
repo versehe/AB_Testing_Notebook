@@ -12,3 +12,11 @@ For example, we have a normal distribution Z ~ N(u,σ<sup>2</sup>). As we know, 
 Z = (x̅ - μ)/sqrt(σ<sup>2</sup>/n)     
 When sample size n is large enough, then variance will be very small. This normal distribution Z ~ N(u,σ<sup>2</sup>/n) becomes close enough to standard normal distribution(Z ~ N(0,1)). Same thing happens to binomial distribution and others.
 
+## Confidence Interval
+A pratical implementation of CLT is confidence interval. If I know the expected value of population mean and its variance, I could backtrack the area where sample mean should falls into.                   
+
+For example, if I want 95% confindence level, the Confidence Interval would be (x̅ - 1.96 * (σ/SQRT(n)) , x̅ + 1.96 * (σ/SQRT(n)) ). In other word,           
+```upper bound =  x̅ + z score * standard error```                
+```lower bound = x̅ - z score * standard error```               
+
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
