@@ -8,8 +8,7 @@ Law of Large Number(LLN) says the sample mean is consistent to the population me
 ### Central Limit Theorem
 Central Limit Theorem(CLT) states that as sample size increase, random variable roughly becomes standard normal. 
 
-Z = (x̅ - μ)/sqrt(σ<sup>2</sup>/n)                  
-μ is mean, σ<sup>2</sup> is variance and x̅ is sample mean. When sample size n is large enough, then this normal distribution Z ~ N(u,σ<sup>2</sup>/n) becomes standard normal distribution(Z ~ N(0,1)). Same thing happens to binomial distribution and others.
-
-
+For example, we have a normal distribution Z ~ N(u,σ<sup>2</sup>). As we know, the expected value x̅ of an mean distribution is still the population mean, and we call the standard deviation of this mean distribution as standard error SQRT(σ2/n). This mean distribution should also follow the same normal distribution.
+Z = (x̅ - μ)/sqrt(σ<sup>2</sup>/n)     
+When sample size n is large enough, then variance will be very small. This normal distribution Z ~ N(u,σ<sup>2</sup>/n) becomes close enough to standard normal distribution(Z ~ N(0,1)). Same thing happens to binomial distribution and others.
 
