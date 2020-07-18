@@ -6,8 +6,8 @@ Asymptotics means that sample size limits to infinity. It forms the basis of fre
 Law of Large Number(LLN) says the sample mean is consistent to the population mean if you repeat the experiment infinite times. So does sample variance and sample std.
 
 ### Central Limit Theorem
-Central Limit Theorem(CLT) states that as sample size increase, the ```average``` of an random variable roughly becomes standard normal. 
-
+Central Limit Theorem(CLT) states that the distribution of ```sample means``` approximates a normal distribution as the sample size becomes larger, regardless of the population distribution shape.                    
+   
 
 For example, we have a normal distribution Z ~ N(u,σ<sup>2</sup>). As we know, the expected value x̅ of an mean distribution is still the population mean u, and we call the standard deviation of this mean distribution as standard error SQRT(σ2/n). When sample size n is large enough, then variance will become very small. This normal distribution Z ~ N(u,σ<sup>2</sup>/n) becomes close enough to standard normal distribution Z  ~ N(0,1). 
 
