@@ -46,7 +46,7 @@ That is to say, when we apply a range of (u-1.96 σ,u +1.96 σ), we get around 9
   
 
 ## Poisson Distribution
-Poisson Distribution might be the second most commonly used distribution after normal distribution, it has a deep connection with Multi-nonimals, Binonimals and Bernoullis.
+Poisson Distribution might be the second most commonly used distribution after normal distribution, it has a deep connection with Multi-nonimals, Binonimals and Bernoullis. In other words, it's also a discrete data distribution.           
 P(x) = λ<sup>x</sup>e<sup>-λ</sup>/x!        ,where x is non-negative integers             
 ```mean``` is λ, and ```variance``` is also λ.           
 
