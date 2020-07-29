@@ -24,3 +24,14 @@ For example, if I want 95% confindence level, the Confidence Interval would be (
 ```lower bound = x̅ - z score * standard error```               
 
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
+
+
+
+## T Distribution Confidence Interval    
+T Distribution always has longer tails than normal distribution, so it fits better in small samples. Unlike normal distribution using mean and variance to define the scale, t distribution only need 1 parameter, the degree of freedom ```(n-1)```, and it always centers at 0. As the sample n increase, it makes smaller impacts to the degree of freedom, thus it becomes more like normal distribution.                      
+
+T Confidence Interval: ```(x̅ - t score * standard error ,  x̅ + t score * standard error)```.It's similar as normal disbution, just simply replace the z score by t score.                     
+
+
+
+T interval only works well with symmetric data. If the distribution is skewed, it doesn't make sense to center the interval at mean. In this case, consider using log to take care of the skewness or try to create bootstrap confidence interval.
