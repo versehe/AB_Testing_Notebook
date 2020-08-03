@@ -30,8 +30,20 @@ For example, if I want 95% confindence level, the Confidence Interval would be (
 ## T Distribution Confidence Interval    
 T Distribution always has longer tails than normal distribution, so it fits better in small samples. Unlike normal distribution using mean and variance to define the scale, t distribution only need 1 parameter, the degree of freedom ```(n-1)```, and it always centers at 0. As the sample n increase, it makes smaller impacts to the degree of freedom, thus it becomes more like normal distribution.                      
 
-T Confidence Interval: ```(x̅ - t score * standard error ,  x̅ + t score * standard error)```.It's similar as normal disbution, just simply replace the z score by t score.                     
-
+T Confidence Interval: ```(x̅ - t value * standard error ,  x̅ + t value * standard error)```.It's similar as normal disbution, just simply replace the z score by t score.                     
 
 
 T interval only works well with symmetric data. If the distribution is skewed, it doesn't make sense to center the interval at mean. In this case, consider using log to take care of the skewness or try to create bootstrap confidence interval.
+
+
+### Compare Two Independent Groups using T Confidence Interval   
+Let's say we are comparing means from 2 different groups with sample sizes, and we want to know whether these 2 groups have different mean. Because now we are looking are 2 groups instead of 1 group but different time, we could use traditional paired t test in this case. Now we need a new technique called ```Pooled T test Confidence Interval```.     
+Paired T Confidence Interval upper bound = x̅ + t value * standard error                           
+```Pooled T Confidence Interval``` upper bound = (mean1 - mean2) + t value<sub>n1+n2-2</sub> * ```Pooled standard error``` * (1/n1＋1/n2)<sup>1/2</sup>　  
+degree of freedom: n1+n2-2
+```Pooled standard error``` =  SQRT( {(n1-1)*STD1 +(n2-1)*STD2}/(n1+n2-2)  )      
+* If interval are all negative, then it tells us group 1 has significant lower mean than group 2.              
+* If the final interval across 0, then it might have no signifcant difference.         
+
+Or, you just simply reverse the process. Calculate the t value and see if it falls into the tail.
+![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/pooled%20t%20value.PNG)     
