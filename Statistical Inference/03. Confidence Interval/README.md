@@ -37,7 +37,7 @@ T interval only works well with symmetric data. If the distribution is skewed, i
 
 
 ### Compare Two Independent Groups using T Confidence Interval   
-Let's say we are comparing means from 2 different groups with sample sizes, and we want to know whether these 2 groups have different mean. Because now we are looking are 2 groups instead of 1 group but different time, we could use traditional paired t test in this case. Now we need a new technique called ```Pooled T test Confidence Interval```.     
+Let's say we are comparing means from 2 different groups with sample sizes, and we want to know if these 2 groups have different mean. Because we are now looking at 2 independent groups, not single group at different time, we can't use traditional paired t test in this case. Now we need a new technique called ```Pooled T test Confidence Interval```.     
 Paired T Confidence Interval upper bound = x̅ + t value * standard error                           
 ```Pooled T Confidence Interval``` upper bound = (mean1 - mean2) + t value<sub>n1+n2-2</sub> * ```Pooled standard error``` * (1/n1＋1/n2)<sup>1/2</sup>　  
 degree of freedom: n1+n2-2
