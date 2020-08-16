@@ -15,6 +15,6 @@ We will need to choose a level of Type 1 Error that we can tolerate, this is the
 Once we decide the confidence level, we could get the confidence inteval and see if it fails into it.
 
 ### T test
-An alternative way to test the significance is t test. Basically, it reverse the process of getting confidence inteval, calculate the z score (or t value if sample size is small) and compare with the confidence level. One thing should be aware: When doing 2 tails test, make sure divide the confidence level by 2 in order to get 2 tails.                            
+An alternative way to test the significance is t test. Basically, it reverse the process of getting confidence inteval, calculate the z score (or t value if sample size is small) and compare with the confidence level. One thing should be aware: When doing two tails test, make sure divide the confidence level by 2 in order to get the two tails.                            
 Z = (X - μ)/SE= (X - μ)/{σ/SQRT(n)}                                       
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
