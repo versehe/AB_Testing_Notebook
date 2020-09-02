@@ -30,4 +30,6 @@ Pooled standard error = SQRT( {(n1-1)*STD1 +(n2-1)*STD2}/(n1+n2-2) )
 
 
 ### P Value
-P-value is the probability of null hypothesis is true. If P-value is smaller than the the P-value at desired Type I error rate, you can reject null hypothesis. It's an easy way to measure hypothesis test result. 
+P-value is the probability of null hypothesis is true. If P-value is smaller than the the P-value at desired Type I error rate, then it's telling you
+null hypothesis is unlikely to be true. Then, you can reject null hypothesis. It's an easy way to measure hypothesis test result. 
+
