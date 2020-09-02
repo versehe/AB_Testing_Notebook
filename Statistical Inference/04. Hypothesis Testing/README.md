@@ -27,3 +27,7 @@ H<sub>0</sub>:μ<sub>1</sub>=μ<sub>2</sub>
 H<sub>1</sub>:μ<sub>1</sub>≠μ<sub>2</sub> (2 tails case)   
 For two groups t test, the common assumption is whether they have same mean, so expected value will be 0. We will use pooled Standard Error in this case.            
 Pooled standard error = SQRT( {(n1-1)*STD1 +(n2-1)*STD2}/(n1+n2-2) )
+
+
+### P Value
+P-value is the probability of null hypothesis is true. If P-value is smaller than the the P-value at desired Type I error rate, you can reject null hypothesis. It's an easy way to measure hypothesis test result. 
