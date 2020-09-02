@@ -20,3 +20,10 @@ An alternative way to test the significance is t test. Basically, it reverse the
 Z = (X - μ)/SE= (X - μ)/{σ/SQRT(n)}                          
                                   
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
+
+
+#### Two Group T test
+H<sub>0</sub>:μ<sub>1</sub>=μ<sub>2</sub>     
+H<sub>1</sub>:μ<sub>1</sub>≠μ<sub>2</sub> (2 tails case)   
+For two groups t test, the common assumption is whether they have same mean, so expected value will be 0. We will use pooled Standard Error in this case.            
+Pooled standard error = SQRT( {(n1-1)*STD1 +(n2-1)*STD2}/(n1+n2-2) )
