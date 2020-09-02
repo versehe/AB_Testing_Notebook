@@ -9,10 +9,10 @@ Through the test, if we draw a conclusion of H<sub>0</sub> is true, then we acce
 ```Type 2 Error```:failed to reject null, we draw a conclusion of H<sub>0</sub> but it's actually H<sub>a</sub>. In this case, there is actually a difference but we didn't notice it.
 
 ### Confidence Level
-We will need to choose a level of Type 1 Error that we can tolerate, this is the ```Confidence Level```. For example, if we run the test 100 time, and we want only 5 times of result fails into Type 1 Error, then our confidence level will be 5%, and the z score will be around 1.645 (If it's t test, then the t value will depends on the degree of freedom).       
-<strong><ins>Please note the confidence level could appy to either 1 tail or 2 tails test</ins></strong>, depends on what kind of hypothesis you are getting. If you are doing a two tails test, make sure divide the confidence level by 2 in order to get the two tails.                            
-
-Once we decide the confidence level, we could get the confidence inteval and see if it fails into it.
+We will need to choose a level of Type 1 Error that we can tolerate, this is the ```Confidence Level```. For example, if we run the test 100 time, and we want only 5 times of result fails into Type 1 Error, then our confidence level will be 5%, and the z score will be around 1.645 (If it's t test, then the t value will depends on the degree of freedom). Once we decide the confidence level, we could get the confidence inteval and see if it fails into it.      
+<strong><ins>Please note the confidence level could appy to either 1 tail or 2 tails test</ins></strong>, depends on what kind of hypothesis you are getting. If you are doing a two tails test, make sure divide the confidence level by 2 in order to get the two tails.                       
+If you are doing a one tail test, then you would only need 1 side bound. In this case, you may consider to reverse the process and get the T test value.
+                 
 
 ### T test
 An alternative way to test the significance is t test. Basically, it reverse the process of getting confidence inteval, calculate the t value and compare with the confidence level. As we already know, when sample size goes large, the difference between t value and z score will be minimum.        
