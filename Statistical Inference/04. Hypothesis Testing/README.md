@@ -36,5 +36,5 @@ Another way to think about P value is to treat it as the edging confidence level
 
 ### Power / Sensitivity
 Power = 1 - Beta(Type II error), fail to reject when the alternative is true.      
-One avenue for the control of power is at the design phase.  we can pick a large enough sample size so that we'd be likely to reject if the alternative is true. 
+Because we paid most attention to minimize Type I error, we usually don't have too much flexibility on Sensitivity. We usually consider this during designing the AB test,  we could pick a large enough sample size in order to reject null if the alternative is true. 
 
