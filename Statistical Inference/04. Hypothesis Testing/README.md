@@ -35,6 +35,6 @@ Another way to think about P value is to treat it as the edging confidence level
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/04.%20Hypothesis%20Testing//p-value.png)
 
 ### Power / Sensitivity
-Power = 1 - Type II error(Beta),  fail to reject when the alternative is true.      
+Power = 1 - Beta(Type II error), fail to reject when the alternative is true.      
 One avenue for the control of power is at the design phase.  we can pick a large enough sample size so that we'd be likely to reject if the alternative is true. 
 
