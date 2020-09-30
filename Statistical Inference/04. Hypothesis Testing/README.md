@@ -34,4 +34,7 @@ P-value is the probability of null hypothesis is true. If P-value is smaller tha
 Another way to think about P value is to treat it as the edging confidence level (the smallest  that you will still reject the null hypothesis). For example, if P value is 4.9%, then it's telling me I will need to reject the null hypothesis on 5% confidence level. 
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/04.%20Hypothesis%20Testing//p-value.png)
 
+### Power / Sensitivity
+Power = 1 - Type II error(Beta),  fail to reject when the alternative is true.      
+One avenue for the control of power is at the design phase.  we can pick a large enough sample size so that we'd be likely to reject if the alternative is true. 
 
