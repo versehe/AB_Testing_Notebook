@@ -21,8 +21,8 @@ A pratical implementation of CLT is confidence interval. If I know the expected 
 
 For example, if I want 95% confindence level, the Confidence Interval would be (x̅ - 1.96 * (σ/SQRT(n)) , x̅ + 1.96 * (σ/SQRT(n)) ). In other word,           
 ```upper bound =  x̅ + z score * standard error```                
-```lower bound = x̅ - z score * standard error```               
-
+```lower bound = x̅ - z score * standard error```                     
+BTW, if we are doing a one-tail test on 95% confindence level, Alpha will be 1.645 other than 1.96.
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/02.%20Distribution/normal%20distribution.png)
 
 
