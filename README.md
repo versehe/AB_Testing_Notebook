@@ -90,7 +90,7 @@ For example:
   * ```Minimum Detectable Effect```: the smallest relative change in conversion rate you are interested to detect between variations A and B conversion. For a product with large group of users, the difference could be 1% - 2%.
   * ```Estimated Standard Error```: if data don't affirm normal distribution/binoimal distribution, it might be hard to calculate SE. Try to use Bootstrap or Delta method to get an estimated standard error. 
   * choose ```statistical significance```(P Value): confidence level (alfa). Usually alfa is 5%, which means 95% of time it should fall in confidence interval
-  * choose ```statistical power```: sensitivity (1 - beta). Usually beta is 20%, so power is 80%. If result falls in beta, it means no significant difference between ariations A and B.        
+  * choose ```statistical power```: sensitivity (1 - beta). Usually beta is 20%, so power is 80%. If result falls in beta, it means the difference between variations A and B is real but we failed to detect it.       
   ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/true%20difference.png)             
      * if we feed more samples into experiment, the distribution will become sharper, then true difference area will expands.      
   ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/more%20sample%20difference.png)    
