@@ -35,6 +35,7 @@ Another way to think about P value is to treat it as the edging confidence level
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/04.%20Hypothesis%20Testing//p-value.png)
 
 ### Power / Sensitivity
-Power = 1 - Beta(Type II error), fail to reject when the alternative is true.      
-Because we paid most attention to minimize Type I error, we usually don't have too much flexibility on Sensitivity. We usually consider this during designing the AB test,  we could pick a large enough sample size in order to reject null if the alternative is true. 
+Type II error(Beta)：fail to reject null when the alternative is true.                  
+```Power = 1 - Type II error```, it indicates the probablity of rejecting null when alternative is true, it's a good thing.                
+Because we paid most attention to minimize Type I error, we usually don't have too much flexibility on Sensitivity. We usually consider this during designing the AB test,  we could pick a large enough sample size to get a stronger power. 
 
