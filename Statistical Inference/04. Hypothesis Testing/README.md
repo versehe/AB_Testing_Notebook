@@ -38,5 +38,5 @@ Another way to think about P value is to treat it as the edging confidence level
 Type II error(Beta)：fail to reject null when the alternative is true.          
 ![alt](https://github.com/versehe/AB_Testing_Notebook/blob/master/Statistical%20Inference/04.%20Hypothesis%20Testing//type2error.jpg)           
 ```Power = 1 - Beta```, it indicates the probablity of rejecting null when alternative is true, it's a good thing.                     
-Because we paid most attention to minimize Type I error, we usually don't have too much flexibility on Sensitivity. We usually consider this during designing the AB test,  we could pick a large enough sample size to make sure the power is strong enough to detect the difference. when sample set is large enough,beta will be small, and power should reach close to 1. 
+Because we paid most attention to minimize Type I error, we usually don't have too much flexibility on Sensitivity. We usually consider this during designing the AB test,  we could pick a large enough sample size to make sure the power is strong enough to detect the difference. When sample set is large enough, beta will be small, and power should reach close to 1. 
 
