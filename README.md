@@ -140,4 +140,4 @@ For example:
                    
 
 #### Question: Does multiple AB tests run at the same time?
-Yes, in the reality, there could be hunreds of them running concurrently. Instead of let some of the feastures wait to be tested forever, we tend to ingore the correlation among those tests.
+Yes, in the reality, there could be hunreds of them running concurrently. What you can do is segmenting your website into smaller sections and make sure they won't affect each other.
